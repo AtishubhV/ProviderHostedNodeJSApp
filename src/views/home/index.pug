@@ -1,0 +1,12 @@
+extends layout
+
+block layout-content
+  div.View
+    h1.Banner WHATABYTE
+    div.Message
+      div.Title
+        h1 #{title}
+      span.Details Host Url #{url}
+    div.NavButtons
+      a(href="/post")
+          div.NavButton Just dive in!
