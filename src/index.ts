@@ -11,7 +11,7 @@ import HomeController from './controllers/home.controller'
 
 const app = new App({
     // port: 3000,
-    port: 80,
+    port: 42304,
     controllers: [
         new HomeController(),
         new PostsController()
